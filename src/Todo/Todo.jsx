@@ -12,7 +12,6 @@ function Todo() {
     const handleChange = (e) => {
         setInput(e.target.value)
     }
-    console.log(input);
     return (
         <Box sx={{ width: "60%", margin: "20px auto", textAlign: "center", backgroundColor: "#2596be", color: "white", minHeight: "80vh", borderRadius: "50px" }}>
             <Typography sx={{ margin: '20px auto' }} variant="h4" gutterBottom>
